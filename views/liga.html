@@ -1,0 +1,39 @@
+<section class="card" id="league-editor">
+  <h2>Configuración de la liga</h2>
+  <form id="leagueForm" class="grid two">
+    <label>
+      Nombre de la liga
+      <input type="text" name="leagueName" placeholder="Liga Metropolitana" required>
+    </label>
+    <label>
+      Categoría
+      <select name="leagueCategory" id="leagueCategory"></select>
+    </label>
+    <div class="form-card">
+      <h3>Agregar desde biblioteca</h3>
+      <p class="muted">Usa plantillas con logos y roster pre-cargado.</p>
+      <div class="input-row">
+        <select id="teamLibrarySelect"></select>
+        <button type="button" id="addTeamFromLibrary" class="btn">Añadir</button>
+      </div>
+    </div>
+    <div class="form-card">
+      <h3>Equipo personalizado</h3>
+      <p class="muted">Crea un club nuevo para la liga.</p>
+      <div class="input-row">
+        <input type="text" id="newTeamInput" placeholder="Nombre del club">
+        <button type="button" id="addTeamBtn" class="btn outline">Crear</button>
+      </div>
+    </div>
+  </form>
+  <div class="team-list card inset">
+    <div class="team-list-header">
+      <h3>Equipos en la liga</h3>
+      <span class="muted" id="teamCount"></span>
+    </div>
+    <ul id="teamsUl"></ul>
+  </div>
+  <footer class="card-footer">
+    <button type="submit" form="leagueForm" id="saveLeague" class="btn">Guardar liga</button>
+  </footer>
+</section>

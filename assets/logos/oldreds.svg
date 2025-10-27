@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="redsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f87171"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="26" fill="url(#redsGrad)"/>
+  <circle cx="60" cy="60" r="32" fill="#0f172a" fill-opacity="0.25"/>
+  <text x="60" y="68" font-family="'Segoe UI',sans-serif" font-size="34" font-weight="700" text-anchor="middle" fill="#0f172a">OR</text>
+</svg>

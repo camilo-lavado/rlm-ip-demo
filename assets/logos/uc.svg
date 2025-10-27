@@ -1,0 +1,7 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="26" fill="#1d4ed8"/>
+  <rect x="52" width="16" height="120" fill="#f8fafc"/>
+  <rect y="52" width="120" height="16" fill="#f8fafc"/>
+  <text x="60" y="46" font-family="'Segoe UI',sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#1d4ed8">U</text>
+  <text x="60" y="88" font-family="'Segoe UI',sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#1d4ed8">C</text>
+</svg>

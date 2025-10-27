@@ -1,0 +1,65 @@
+<section class="card home-hero" id="homeHero">
+  <div class="home-hero-header">
+    <div class="home-hero-logo">
+      <span>🏉</span>
+    </div>
+    <div>
+      <h2 id="homeLeagueName">Liga Metropolitana</h2>
+      <p class="muted" id="homeLeagueMeta"></p>
+    </div>
+  </div>
+  <div class="home-hero-metrics" id="homeMetrics"></div>
+  <footer class="card-footer">
+    <a class="btn" href="#/liga">Configurar liga</a>
+    <a class="btn outline" href="#/fixture">Ver fixture</a>
+    <a class="btn ghost" href="#/tabla">Tabla completa</a>
+  </footer>
+</section>
+
+<section class="grid two home-panels">
+  <article class="card">
+    <header class="card-header">
+      <div>
+        <h3>Próximos partidos</h3>
+        <p class="muted">Calendario inmediato</p>
+      </div>
+      <a class="btn ghost small" href="#/resultados">Cargar resultados</a>
+    </header>
+    <ul class="match-list" id="homeUpcoming"></ul>
+  </article>
+  <article class="card">
+    <header class="card-header">
+      <div>
+        <h3>Tabla express</h3>
+        <p class="muted">Top 4 del campeonato</p>
+      </div>
+      <a class="btn ghost small" href="#/tabla">Ver tabla</a>
+    </header>
+    <div class="table-wrapper compact">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Equipo</th>
+            <th>PJ</th>
+            <th>PG</th>
+            <th>Pts</th>
+            <th>DF</th>
+          </tr>
+        </thead>
+        <tbody id="homeStandingsBody"></tbody>
+      </table>
+    </div>
+  </article>
+</section>
+
+<section class="card" id="homeTeamsCard">
+  <header class="card-header">
+    <div>
+      <h3>Planteles cargados</h3>
+      <p class="muted">Resumen de jugadores disponibles</p>
+    </div>
+    <a class="btn ghost small" href="#/rosters">Gestionar rosters</a>
+  </header>
+  <div class="team-grid" id="homeTeamsGrid"></div>
+</section>

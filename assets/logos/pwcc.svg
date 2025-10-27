@@ -1,0 +1,12 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pwccGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#be185d"/>
+      <stop offset="100%" stop-color="#831843"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="url(#pwccGrad)"/>
+  <path d="M60 26 L90 40 V70 C90 88 76 100 60 110 C44 100 30 88 30 70 V40 Z" fill="#0f172a" fill-opacity="0.18"/>
+  <text x="60" y="58" font-family="'Segoe UI',sans-serif" font-size="32" font-weight="700" text-anchor="middle" fill="#f8fafc">PW</text>
+  <text x="60" y="88" font-family="'Segoe UI',sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#f8fafc">CC</text>
+</svg>

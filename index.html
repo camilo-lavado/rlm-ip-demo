@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rugby League Manager Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar" role="banner">
+      <div class="brand">
+        <span class="logo">🏉</span>
+        <div>
+          <h1>Rugby League Manager</h1>
+          <p class="tagline">Demo mínima funcional</p>
+        </div>
+      </div>
+      <div class="actions">
+        <button id="themeToggle" type="button" class="btn ghost" aria-label="Cambiar tema">Tema</button>
+        <button id="resetDemo" type="button" class="btn outline">Reset demo</button>
+      </div>
+    </header>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#/" data-route="/">Inicio</a>
+      <a href="#/liga" data-route="/liga">Liga</a>
+      <a href="#/rosters" data-route="/rosters">Rosters</a>
+      <a href="#/fixture" data-route="/fixture">Fixture</a>
+      <a href="#/resultados" data-route="/resultados">Resultados</a>
+      <a href="#/tabla" data-route="/tabla">Tabla</a>
+      <a href="#/public" data-route="/public">Público</a>
+    </nav>
+    <main id="view-root" class="view-root" role="main" tabindex="-1"></main>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </div>
+  <script src="router.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
