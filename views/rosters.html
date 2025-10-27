@@ -1,13 +1,28 @@
 <section class="card" id="roster-editor">
   <h2>Rosters Adulto XV</h2>
-  <div class="grid two">
-    <label>
-      Equipo
-      <select id="rosterTeamSelect"></select>
-    </label>
-    <div>
-      <span class="badge">Planilla de 23</span>
-      <p class="muted">15 titulares + 8 banca. Props pueden ser bi-posicionales.</p>
+  <div class="roster-toolbar">
+    <div class="roster-select">
+      <label>
+        Equipo
+        <select id="rosterTeamSelect"></select>
+      </label>
+      <div class="team-profile" id="rosterTeamProfile"></div>
+    </div>
+    <div class="roster-actions">
+      <label>
+        Agregar desde biblioteca
+        <div class="input-row">
+          <select id="rosterLibrarySelect"></select>
+          <button type="button" class="btn ghost" id="rosterAddFromLibrary">Añadir</button>
+        </div>
+      </label>
+      <label>
+        Crear equipo rápido
+        <div class="input-row">
+          <input type="text" id="rosterNewTeam" placeholder="Nombre del club">
+          <button type="button" class="btn outline" id="rosterCreateTeam">Crear</button>
+        </div>
+      </label>
     </div>
   </div>
   <div class="table-wrapper">
